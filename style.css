@@ -66,7 +66,7 @@ header {
   z-index: 1000;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1.7rem 10%;
   height: 6.5rem;
   background-color: #fff;
@@ -84,18 +84,6 @@ section {
 }
 .heading span {
   color: rgb(167, 3, 30);
-}
-header .logo {
-  font-size: 1.9rem;
-  font-weight: 800;
-  text-decoration: none;
-  color: #0e2431;
-}
-header .logo i {
-  font-size: 2.2rem;
-}
-header .logo:hover {
-  color: #da0416;
 }
 header .navbar ul {
   list-style: none;
@@ -184,11 +172,20 @@ header .navbar ul li a:hover {
   min-height: 100vh;
   align-items: center;
 }
-.home #hero-body {
+
+.home #particles-js {
   position: absolute;
   width: 100%;
   height: 100%;
   top:0;
+  left: 0;
+}
+
+.home #hero-body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
   left: 0;
 }
 .home::before {
@@ -204,22 +201,7 @@ header .navbar ul li a:hover {
   padding-top: 1rem;
   z-index: 1;
 }
-.home .image {
-  flex: 1 1 40rem;
-  z-index: 1;
-}
-.home .image img {
-  width: 100%;
-  height: 100%;
-  margin-top: 5rem;
-  margin-left: 6rem;
-  border-radius: 2%;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-}
-.home .image img:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-}
+
 .home .content h2 {
   font-size: 5rem;
   font-weight: 800;
@@ -319,7 +301,14 @@ header .navbar ul li a:hover {
   background-color: #bb0000;
 }
 .social-icons a.instagram:hover {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
 }
 .social-icons a.facebook:hover {
   background: #32506d;
@@ -332,9 +321,6 @@ header .navbar ul li a:hover {
   }
   .socials {
     margin-top: 12rem;
-  }
-  .home .image img {
-    margin-top: 1rem;
   }
   .home .content p {
     font-size: 2.2rem;
@@ -685,7 +671,7 @@ header .navbar ul li a:hover {
   width: 100%;
   padding-left: 1rem;
   background: #da0416;
-  color: #FFF;
+  color: #fff;
 }
 .work .box-container .box .content .tag h3 {
   font-size: 2rem;
