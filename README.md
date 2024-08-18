@@ -1,1 +1,1 @@
-# PortFolio-Website
+I crafted a personal portfolio website named Code Alchemy to effectively showcase my abilities and accomplishments. Leveraging HTML, CSS, and JavaScript, I constructed the website's foundation, aesthetic appeal, and interactive components. To enhance the portfolio's functionality and user experience, I integrated various APIs, enriching the overall presentation of my skills, projects, and experiences.
