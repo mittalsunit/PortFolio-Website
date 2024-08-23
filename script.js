@@ -58,7 +58,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Code Alchemy";
+            document.title = "Portfolio | Portfolio";
             $("#favicon").attr("href", "images/favicon.jpg");
         }
         else {
@@ -67,13 +67,12 @@ document.addEventListener('visibilitychange',
         }
     });
 
-
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "Full Stack Web Development"],
+    strings: ["Software development", "Full Stack Web Development"],
     loop: true,
-    typeSpeed: 60,
-    backSpeed: 30,
+    typeSpeed: 100,
+    backSpeed: 90,
     backDelay: 500,
 });
 // <!-- typed js effect ends -->
